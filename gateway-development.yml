@@ -14,6 +14,3 @@ spring:
         - Path=/api/user/**
         filters:
         - RewritePath=/api/(?<path>.*), /$\{path}
-logging:
-  level:
-    root: debug
